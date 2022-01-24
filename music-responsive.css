@@ -1,0 +1,150 @@
+/* ----------------------AT MAX WIDTH : 1000PX---------------------- */
+@media screen and (max-width:1000px) {
+    .grid-container {
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+    }
+}
+
+/* ----------------------AT MAX WIDTH : 800PX ---------------------- */
+@media screen and (max-width: 800px) {
+
+    /* ============grid-container====== */
+    .grid-container {
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
+    /* ----------------------========  header =========----------------------*/
+    #favorites, header .search-box, #notification, #user {
+        display: none;
+    }
+    header {
+        justify-content: center !important;
+    }
+
+    /* ----------------------SHOWING UP RESPONSIVE MENU---------------------- */
+    #resp-menu {
+        display: block;
+    }
+
+    .responsive-content {
+        display: block;
+    }
+
+    /* ----------------------SETTING UP NEW SEARCH BOX---------------------- */
+    .responsive-content .search-box {
+        width: 100%;
+        height: 30px;
+        border-radius: unset;
+        position: relative;
+        top: 100px;
+        z-index: 2;
+    }
+    .responsive-content .search-box>div {
+        padding: 20px;
+    }
+
+
+    /* ALL THIS WORK DONE BY ANKUR GUPTA */ 
+    /* ----------------------============ content==========---------------------- */
+    
+   /* ----------------------ASIDE LEFT---------------------------------- */
+
+    #aside-left, #main, #aside-right {
+        height: calc(100vh - 100px - 30px - 80px);
+    }
+
+    #aside-left #aside-left-short, #aside-right .playlist {
+        display: none;
+    }
+
+    #aside-left {
+        width: unset;
+    }
+
+    .side-queue {
+        width: 20px;
+        height: 100%;
+        background: linear-gradient(rgb(9, 0, 138), rgb(138, 0, 0), white 100%);
+        z-index: 2;
+        position: relative;
+    }
+
+    .side-queue i {
+        padding: 3px;
+        position: absolute;
+        top: 50%;
+        font-size: 30px;
+    }
+
+    #aside-left:hover #aside-left-large {
+        display: block;
+        height: calc(100vh - 210px);
+        top: 0;
+    }
+
+    #aside-left .responsive-content div {
+        transform: rotate(-90deg);
+        position: relative;
+        top: 40px;
+        left: 0;
+    }
+
+    #aside-left:hover .side-queue {
+        display: none;
+    }
+
+    /* ---------------------MAIN--------------------- */
+    
+    #main::-webkit-scrollbar {
+        width: 0;
+    }
+    
+    #main {
+        width: 95%;
+    }
+
+    /* ----------------------ASIDE RIGHT------------------------ */
+    #aside-right {
+        width: unset;
+        border-radius: unset;
+    }
+    #aside-right:hover .playlist {
+        display: block;
+    }
+    #aside-right:hover .responsive-content {
+        display: none;
+    }
+    #aside-right .responsive-content div {
+        transform: rotate(90deg);
+    }
+    
+    /* ---------------------===========footer=============-------------- */
+    #footer-left>div {
+        display: none;
+    }
+    #footer-left>div:nth-child(1) {
+        display: block;
+    }
+    #footer-right>div {
+        display: none;
+    }
+    #footer-right>div:nth-child(1) {
+        display: block;
+    }
+    #footer-center {
+        width: 80%;
+    }
+
+    
+    /* ---------------------------ARTISTS-PAGE------------------------------- */
+    #main-artist {
+        height: calc(100vh - 210px) !important;
+    }
+    #main-artist::-webkit-scrollbar {
+        width: 0;
+    }
+}
+
+/* ---------------------- E N D ---------------------- */

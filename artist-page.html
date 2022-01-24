@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Captain Musifier</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	
+	<!-- setting favicon -->
+	<link rel="icon" href="assets/captain/favicon4.png" type="image">
+
+	<!-- music styles.css -->
+	<link rel="stylesheet" href="music-styles.css">
+
+	<!-- responsive css -->
+	<link rel="stylesheet" href="music-responsive.css">
+
+	<!-- only for artist page css -->
+	<link rel="stylesheet" href="artist-page-styles.css">
+
+	<!-- font awesome -->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- google fonts -->
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Reggae+One&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<!-- ---------------------------------------------------header------------------------------------------------------ -->
+	<header class="h-container">
+		<!-- ================	LOGO	=============== -->
+		<div id="logo" class="h-container">
+			<!-- LOGO IMAGE -->
+			<div id="logo-image"><a href="index.html"> <img src="assets/captain/captain-shield.jpg" class=""> </a> </div>
+
+			<!-- LOGO TITLE -->
+			<div id="logo-title">
+				<a href="index.html"> <h> Captain Musifier </h> </a>
+			</div>
+		</div>
+
+		<!-- ================	FAVORITES	=============== -->
+		<div id="favorites">
+			<a href="#">Favorites</a>
+		</div>
+
+		<!-- ================	SEARCH BOX	=============== -->
+		<div class="search-box h-container">
+			<!-- SEARCH ICON -->
+			<div><i class="fas fa-search"></i></div>
+
+			<!-- FORM -->
+			<div id="form">
+				<form>
+					<input name="search" type="text" placeholder="Search">
+				</form>
+			</div>
+
+			<!-- MIC ICON -->
+			<div><i class="fas fa-microphone"></i></div>
+		</div>
+
+		<!-- ================	NOTIFICATION	=============== -->
+		<div id="notification">
+			<i class="fas fa-bell"></i>
+		</div>
+
+		<!-- ================	USER	=============== -->
+		<div id="user">
+			<img src="assets/captain/captain.png">
+		</div>
+
+		<!-- ================	RESPONSIVE DROP DOWN MENU - APPEARS IN SMALL WIDTH	=============== -->
+		<div id="resp-menu">
+			<i class="fas fa-menorah"></i>
+			<div>
+				<ul>
+					<!-- USER ICON -->
+					<li>
+						<img src="assets/captain/captain.png">
+
+					</li>
+
+					<!-- FAV ICON -->
+					<li>
+						<i class="fas fa-heart"></i>
+						Favorites
+					</li>
+
+					<!-- NOTIFICATION ICON -->
+					<li>
+						<i class="fas fa-bell"></i>
+						Notifications
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<!-- ================	(RESPONSIVE) SEARCH BOX	=============== -->
+	<div class="responsive-content">
+		<div class="search-box h-container">
+			<!-- SEARCH ICON -->
+			<div><i class="fas fa-search"></i></div>
+
+			<!-- SEARCH BOX -->
+			<div id="form">
+				<form>
+					<input name="search" type="text" placeholder="Search">
+				</form>
+			</div>
+
+			<!-- MIC ICON -->
+			<div><i class="fas fa-microphone"></i></div>
+		</div>
+	</div>
+
+	<!-------------------------------------------------------content-------------------------------------------------- -->
+
+	<content class="h-container">
+		<!------------ queue--------- -->
+		<aside id="aside-left" class="inline-block">
+
+
+			<!-- ================	(RESPONSIVE) LEFT SIDE BAR	=============== -->
+			<div class="responsive-content side-queue">
+				<div>QUEUE</div>
+				<i class="fas fa-caret-right"></i>
+			</div>
+			<!--------------------- -->
+
+
+			<!-- QUEUE - IN SHORT SIZE -->
+			<aside id="aside-left-short">
+
+				<!-- VERTICAL CONTAINER -->
+				<div class="v-container">
+
+					<!-- HEADER OF QUEUE -->
+					<h id="aside-header">QUEUE</h><br>
+
+					<!-- ELEMENTS OF QUEUE -->
+
+					<!-- song 1 -->
+					<div class="queue-short">
+						<!-- SONG IMAGE -->
+						<a href="#">
+							<img src="assets/english-songs/baila-conmigo.jpg">
+						</a>
+					</div>
+
+					<!-- song 2 -->
+					<div class="queue-short">
+						<a href="#">
+							<img src="assets/hindi-songs/akh-lad-jaave.jpg">
+						</a>
+					</div>
+
+					<!-- song 3 -->
+					<div class="queue-short">
+						<a href="#">
+							<img src="assets/english-songs/de-una-vez.jpg">
+						</a>
+					</div>
+
+					<!-- song4 -->
+					<div class="queue-short">
+						<a href="#">
+							<img src="assets/hindi-songs/high-rated-gabru.jpg">
+						</a>
+					</div>
+
+					<!-- song5 -->
+					<div class="queue-short">
+						<a href="#">
+							<img src="assets/english-songs/hold-on.jpg">
+						</a>
+					</div>
+
+					<!-- song6 -->
+					<div class="queue-short">
+						<a href="#">
+							<img src="assets/hindi-songs/lahore.jpg">
+						</a>
+					</div>
+
+					<!-- song7 -->
+					<div class="queue-short">
+						<a href="#">
+							<img src="assets/hindi-songs/she-move-it-like.jpg">
+						</a>
+					</div>
+
+					<!-- song8 -->
+					<div class="queue-short">
+						<a href="#">
+							<img src="assets/english-songs/positions.jpg">
+						</a>
+					</div>
+				</div>
+			</aside>
+
+			<!-- ---------------------------- -->
+
+			<!-- ================	LARGE SIZE QUEUE - WHICH APPEARS ON HOVER	=============== -->
+			<aside id="aside-left-large">
+
+				<!-- VERTICAL CONTAINER -->
+				<div class="v-container">
+
+					<!-- HEADER -->
+					<h id="aside-header">QUEUE</h><br>
+
+					<!-- QUEUE ELEMENTS -->
+					<!-- song -->
+					<div class="queue-large h-container">
+
+						<!-- SONG IMAGE -->
+						<div>
+							<a href="#">
+								<img src="assets/english-songs/baila-conmigo.jpg">
+							</a>
+						</div>
+
+						<!-- SONG NAME AND ARTIST -->
+						<div>
+							<div class="image-caption">Baila Conmigo</div>
+							<div class="image-details">artist</div>
+						</div>
+
+						<!-- HEART ICON -->
+						<div>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+
+					<!-- song 2-->
+					<div class="queue-large h-container">
+						<div>
+							<a href="#">
+								<img src="assets/hindi-songs/akh-lad-jaave.jpg">
+							</a>
+						</div>
+
+						<div>
+							<div class="image-caption">akh lad jaave</div>
+							<div class="image-details">Badshah</div>
+						</div>
+						<div class="icons">
+							<i class="fas fa-heart"></i>
+						</div>
+					</div>
+
+					<!-- song 3-->
+					<div class="queue-large h-container">
+						<a href="#">
+							<img src="assets/english-songs/de-una-vez.jpg">
+						</a>
+						<div>
+							<div class="image-caption">de una vez</div>
+							<div class="image-details">artist</div>
+						</div>
+						<div class="icons">
+							<i class="fas fa-heart"></i>
+						</div>
+					</div>
+
+					<!-- song4 -->
+					<div class="queue-large h-container">
+						<a href="#">
+							<img src="assets/hindi-songs/high-rated-gabru.jpg">
+						</a>
+						<div>
+							<div class="image-caption">high rated gabru</div>
+							<div class="image-details">guru randhawa</div>
+						</div>
+						<div class="icons">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+
+					<!-- song 5 -->
+					<div class="queue-large h-container">
+						<div>
+							<a href="#">
+								<img src="assets/english-songs/hold-on.jpg">
+							</a>
+						</div>
+
+						<div>
+							<div class="image-caption">hold on</div>
+							<div class="image-details">artist</div>
+						</div>
+						<div class="icons">
+							<i class="fas fa-heart"></i>
+						</div>
+					</div>
+
+					<!-- song 6 -->
+					<div class="queue-large h-container">
+						<a href="#">
+							<img src="assets/hindi-songs/lahore.jpg">
+						</a>
+						<div>
+							<div class="image-caption">lahore</div>
+							<div class="image-details">Guru Randhawa</div>
+						</div>
+						<div class="icons">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+
+					<!-- song 7 -->
+					<div class="queue-large h-container">
+						<a href="#">
+							<img src="assets/hindi-songs/she-move-it-like.jpg">
+						</a>
+						<div>
+							<div class="image-caption">she move it like</div>
+							<div class="image-details">badshah</div>
+						</div>
+						<div class="icons">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+
+					<!-- song 8 -->
+					<div class="queue-large h-container">
+						<a href="#">
+							<img src="assets/english-songs/positions.jpg">
+						</a>
+						<div>
+							<div class="image-caption">positions</div>
+							<div class="image-details">artist</div>
+						</div>
+						<div class="icons">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+
+				</div>
+			</aside>
+		</aside>
+
+		<!--------------------------------------- main content-------------------------------------- -->
+		<main id="main-artist">
+			<!-- information - selected artist info not available -->
+			<div class="info">
+				Unexpected content failure occured!
+				The content you requested is not available currently !
+				<br>
+				Showing up a talented artist, instead. Hope you like this artist.
+			</div>
+			<br>
+			<!----------------------- artist container----------------------------- -->
+			<artist class="h-container">
+				<!-- photo -->
+				<div id="artist-photo">
+					<img src="assets/artist-page/Shankar.webp">
+				</div>
+				<!-- details -->
+				<div id="artist-details">
+					<!-- name -->
+					<h1>Shankar Mahadevan</h1>
+					<!-- track details -->
+					<div class="image-details">
+						3,816 Tracks | 1,878 albums
+					</div>
+					<br>
+					<br>
+					<!-- info about artist -->
+					<div>
+						Shankar Mahadevan (born 3 March 1967) is an Indian singer and composer who is part of the
+						Shankar–Ehsaan–Loy composing trio team for Indian films.
+						<br>
+						<br>
+						He is an alumnus of Our Lady of Perpetual Succour High School, Chembur and graduated in 1988
+						with a
+						degree in Computer Science and Software Engineering.
+						After working for Leading Edge Systems (now Trigyn Technologies Limited), Mahadevan ventured
+						into
+						music.
+					</div>
+				</div>
+			</artist>
+
+			<!-- buttons for playall and start radio -->
+			<div id="buttons" class="h-container">
+				<!-- playall -->
+				<div id="playall">
+					<i class="fas fa-play"></i>
+					Play All
+				</div>
+
+				<!-- start radio -->
+				<div id="startradio">
+					<i class="fas fa-podcast"></i>
+					Start Radio
+				</div>
+			</div>
+
+			<!-- ---------------song titles----------------- -->
+			<!-- playlist header -->
+			<h>Titles</h>
+			<br>
+
+			<div id="songs" class="v-container">
+
+				<!-- playlist song 1 -->
+				<div class="h-container">
+					<!-- song image -->
+					<div>
+						<img src="assets/artist-page/ganesh-arti.jpg">
+					</div>
+
+					<!-- song name and artist -->
+					<div>
+						<div class="image-caption">Ganesh Arti</div>
+						<div class="image-details">Shankar Mahadevan</div>
+					</div>
+
+					<!-- icons -->
+					<div class="icons">
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+				<!-- playlist song 2 -->
+				<div class="h-container">
+					<div>
+						<a href="#">
+							<img src="assets/artist-page/breathless.jpg">
+						</a>
+					</div>
+					<div>
+						<div class="image-caption">Breathless</div>
+						<div class="image-details">Shankar Mahadevan</div>
+					</div>
+					<div class="icons">
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="fas fa-heart red"></i>
+					</div>
+				</div>
+
+				<!-- playlist song 3 -->
+				<div class="h-container">
+					<div>
+						<a href="#">
+							<img src="assets/artist-page/desi-girl.jpg">
+						</a>
+					</div>
+					<div>
+						<div class="image-caption">Desi Girl</div>
+						<div class="image-details">Shankar Mahadevan</div>
+					</div>
+					<div class="icons">
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+				<!-- playlist song 4 -->
+				<div class="h-container">
+					<div>
+						<a href="#">
+							<img src="assets/artist-page/mast-kalandar.jpg">
+						</a>
+					</div>
+					<div>
+						<div class="image-caption">Mast Kalandar</div>
+						<div class="image-details">Shankar Mahadevan</div>
+					</div>
+					<div class="icons">
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+				<!-- playlist song 5 -->
+				<div class="h-container">
+					<div>
+						<div>
+							<a href="#">
+								<img src="assets/artist-page/maa-tujhe-salam.jpg">
+							</a>
+						</div>
+					</div>
+
+					<div>
+						<div class="image-caption">Maa Tujhe Salam</div>
+						<div class="image-details">Shankar Mahadevan</div>
+					</div>
+					<div class="icons">
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="fas fa-heart red"></i>
+					</div>
+				</div>
+
+				<!-- playlist song 6 -->
+				<div class="h-container">
+					<div>
+						<a href="#">
+							<img src="assets/artist-page/mourya-re.jpg">
+						</a>
+					</div>
+					<div>
+						<div class="image-caption">Mourya re</div>
+						<div class="image-details">Shankar Mahadevan</div>
+					</div>
+					<div class="icons">
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="fas fa-heart red"></i>
+					</div>
+				</div>
+
+				<!-- playlist song 7 -->
+				<div class="h-container">
+					<div>
+						<a href="#">
+							<img src="assets/artist-page/nihaal-ho-gayi.jpg">
+						</a>
+					</div>
+					<div>
+						<div class="image-caption">Nihaal Ho gayi</div>
+						<div class="image-details">Shankar Mahadevan</div>
+					</div>
+					<div class="icons">
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+				<!-- playlist song 8 -->
+				<div class="h-container">
+					<div>
+						<a href="#">
+							<img src="assets/artist-page/pretty-woman.jpg">
+						</a>
+					</div>
+					<div>
+						<div class="image-caption">Pretty Woman</div>
+						<div class="image-details">Shankar Mahadevan</div>
+					</div>
+					<div class="icons">
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="fas fa-heart red"></i>
+					</div>
+				</div>
+
+				<!-- playlist song 9 -->
+				<div class="h-container">
+					<div>
+						<a href="#">
+							<img src="assets/artist-page/sajdaa.jpg">
+						</a>
+					</div>
+					<div>
+						<div class="image-caption">Sajdaa</div>
+						<!-- /* ALL THIS WORK DONE BY ANKUR GUPTA */ -->
+						<div class="image-details">Shankar Mahadevan</div>
+					</div>
+					<div class="icons">
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+				<!-- playlist song 10 -->
+				<div class="h-container">
+					<div>
+						<a href="#">
+							<img src="assets/artist-page/zinda.jpg">
+						</a>
+					</div>
+					<div>
+						<div class="image-caption">Zinda</div>
+						<div class="image-details">Shankar Mahadevan</div>
+					</div>
+					<div class="icons">
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+
+			</div>
+
+		</main>
+
+		<!-- -----------------------------------------playlist, favourites------------------------------------------- -->
+		
+		<aside id="aside-right" class="inline-block">
+
+			<!-- ===========	RESPONSIVE CONTENT - RIGHT SIDE BAR============= -->
+			<div class="responsive-content side-queue">
+				<div>PLAYLIST</div>
+				<i class="fas fa-caret-left"></i>
+			</div>
+			<!-- =============================================================== -->
+
+			<!-- playlist container vertical flex -->
+			<div id="similar-artists" class="playlist v-container">
+
+				<!-- playlist header -->
+				<div class="playlist-h-container">
+					<h id="aside-header">SIMILAR ARTISTS</h><br>
+
+					<!-- dropdown menu -->
+					<div id="playlist-drop-down">
+						<!-- caret down icon -->
+						<i class="fas fa-caret-down"></i>
+
+						<!-- dropdown list -->
+						<div>
+							<ul>
+								<li>Playlist</li>
+								<li>Favorites</li>
+								<li>Recent</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- similar artist 1 -->
+				<div class="h-container">
+					<!-- song image -->
+					<div>
+						<a href="#">
+							<img src="assets/artists/badshah.jpg">
+						</a>
+					</div>
+					<!-- artist name-->
+					<div class="image-caption">
+						Badshah
+					</div>
+				</div>
+
+				<!-- similar artist 2 -->
+				<div class="h-container">
+					<!-- song image -->
+					<div>
+						<a href="#">
+							<img src="assets/artists/english/martin-garrix.webp">
+						</a>
+					</div>
+					<!-- artist name-->
+					<div class="image-caption">
+						Martin Garrix
+					</div>
+				</div>
+
+				<!-- similar artist 3 -->
+				<div class="h-container">
+					<!-- song image -->
+					<div>
+						<a href="#">
+							<img src="assets/artists/english/rihanna.jpg">
+						</a>
+					</div>
+					<!-- artist name-->
+					<div class="image-caption">
+						Rihanna
+					</div>
+				</div>
+
+				<!-- similar artist 4 -->
+				<div class="h-container">
+					<!-- song image -->
+					<div>
+						<a href="#">
+							<img src="assets/artists/english/shakira.jpg">
+						</a>
+					</div>
+					<!-- artist name-->
+					<div class="image-caption">
+						Shakira
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+			<!-- //////////////////// -->
+
+			<!-- playlist container vertical flex -->
+			<div class="playlist v-container">
+
+				<!-- playlist header -->
+				<div class="playlist-h-container">
+					<h id="aside-header">Recently Played</h><br>
+
+					<!-- dropdown menu -->
+					<div id="playlist-drop-down">
+						<!-- caret down icon -->
+						<i class="fas fa-caret-down"></i>
+
+						<!-- dropdown list -->
+						<div>
+							<ul>
+								<li>Playlist</li>
+								<li>Favorites</li>
+								<li>Recent</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- playlist song 1 -->
+				<div class="h-container">
+					<!-- song image -->
+					<div>
+						<a href="#">
+							<img src="assets/english-songs/baila-conmigo.jpg">
+						</a>
+					</div>
+					<!-- song name and artist -->
+					<div>
+						<div class="image-caption">Baila Conmigo</div>
+						<div class="image-details">artist</div>
+					</div>
+					<!-- icons -->
+					<div>
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+				<!-- playlist song 2 -->
+				<div class="h-container">
+					<div>
+						<a href="#">
+							<img src="assets/hindi-songs/akh-lad-jaave.jpg">
+						</a>
+					</div>
+					<div>
+						<div class="image-caption">akh lad jaave</div>
+						<div class="image-details">Badshah</div>
+					</div>
+					<div class="icons">
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="fas fa-heart"></i>
+					</div>
+				</div>
+
+				<!-- playlist song 3 -->
+				<div class="h-container">
+					<div>
+						<a href="#">
+							<img src="assets/english-songs/de-una-vez.jpg">
+						</a>
+					</div>
+					<div>
+						<div class="image-caption">de una vez</div>
+						<div class="image-details">artist</div>
+					</div>
+					<div class="icons">
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="fas fa-heart"></i>
+					</div>
+				</div>
+
+				<!-- playlist song 4 -->
+				<div class="h-container">
+					<div>
+						<a href="#">
+							<img src="assets/hindi-songs/high-rated-gabru.jpg">
+						</a>
+					</div>
+					<div>
+						<div class="image-caption">high rated gabru</div>
+						<div class="image-details">guru randhawa</div>
+					</div>
+					<div class="icons">
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+				<!-- playlist song 5 -->
+				<div class="h-container">
+					<div>
+						<div>
+							<a href="#">
+								<img src="assets/english-songs/hold-on.jpg">
+							</a>
+						</div>
+					</div>
+
+					<div>
+						<div class="image-caption">hold on</div>
+						<div class="image-details">artist</div>
+					</div>
+					<div class="icons">
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="fas fa-heart"></i>
+					</div>
+				</div>
+
+				<!-- playlist song 6 -->
+				<div class="h-container">
+					<div>
+						<a href="#">
+							<img src="assets/hindi-songs/lahore.jpg">
+						</a>
+					</div>
+					<div>
+						<div class="image-caption">lahore</div>
+						<div class="image-details">Guru Randhawa</div>
+					</div>
+					<div class="icons">
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+				<!-- playlist song 7 -->
+				<div class="h-container">
+					<div>
+						<a href="#">
+							<img src="assets/hindi-songs/she-move-it-like.jpg">
+						</a>
+					</div>
+					<div>
+						<div class="image-caption">she move it like</div>
+						<div class="image-details">badshah</div>
+					</div>
+					<div class="icons">
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+
+				<!-- playlist song 8 -->
+				<div class="h-container">
+					<div>
+						<a href="#">
+							<img src="assets/english-songs/positions.jpg">
+						</a>
+					</div>
+					<div>
+						<div class="image-caption">positions</div>
+						<div class="image-details">artist</div>
+					</div>
+					<div class="icons">
+						<i class="fas fa-ellipsis-h"></i>
+						<i class="far fa-heart"></i>
+					</div>
+				</div>
+			</div>
+		</aside>
+	</content>
+
+
+	<!-- -----------------------------------------------------footer-------------------------------------------------------- -->
+	<footer class="h-container">
+
+		<!-- footer left part -->
+		<div id="footer-left" class="h-container">
+
+			<!-- song image -->
+			<div>
+				<a href="#">
+					<img src="assets/artist-page/pretty-woman.jpg">
+				</a>
+			</div>
+
+			<!-- song details -->
+			<div>
+				<div class="image-caption">Pretty Woman</div>
+				<div class="image-details">Shankar</div>
+			</div>
+
+			<!-- heart icon -->
+			<div>
+				<i class="far fa-heart"></i>
+			</div>
+
+			<!-- ban icon -->
+			<div>
+				<i class="fas fa-ban"></i>
+			</div>
+		</div>
+
+		<!-- footer center -->
+		<div id="footer-center" class="v-container">
+
+			<!-- setting player controls  -->
+			<div id="footer-center-upper" class="h-container">
+				<!-- random -->
+				<div><i class="fas fa-random"></i></div>
+
+				<!-- backward -->
+				<div><i class="fas fa-step-backward"></i></div>
+
+				<!-- pause -->
+				<div><i class="far fa-pause-circle"></i></div>
+
+				<!-- forward -->
+				<div><i class="fas fa-step-forward"></i></div>
+
+				<!-- iterate songs -->
+				<div><i class="fas fa-retweet"></i></div>
+			</div>
+
+			<!-- song player track  -->
+
+			<div id="footer-center-lower" class="h-container">
+				<!-- time elapsed -->
+				<div class="image-details">1:09</div>
+
+				<!-- track -->
+				<div class="music-track">
+					<!-- track completed -->
+					<div class="music-track-covered">
+						<!-- circle -->
+						<i class="fas fa-circle"></i>
+					</div>
+				</div>
+
+				<!-- total duration -->
+				<div class="image-details">4:09</div>
+			</div>
+		</div>
+
+		<!-- footer right part -->
+		<div id="footer-right" class="h-container">
+			<!-- sliders -->
+			<div><i class="fas fa-sliders-h"></i></div>
+
+			<!-- drum -->
+			<div><i class="fas fa-drum"></i></div>
+
+			<!-- volume-up -->
+			<div><i class="fas fa-volume-up"></i></div>
+
+			<!-- volume track -->
+			<div class="music-track">
+				<div class="music-track-covered">
+					<i class="fas fa-circle"></i>
+				</div>
+			</div>
+
+			<!-- expand icon -->
+			<div><i class="fas fa-expand-arrows-alt"></i></div>
+		</div>
+	</footer>
+</body>
+
+</html>

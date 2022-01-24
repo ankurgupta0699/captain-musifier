@@ -1,0 +1,165 @@
+a {
+    text-decoration: none;
+}
+
+/* ---------------------BODY--------------------- */
+body {
+    animation: unset;
+    background: url('assets/artist-page/papers.co-oa03-leaf-wood-mountain-flower-green-nature-29-wallpaper.jpg');
+}
+
+#main-artist {
+    width: 70%;
+    height: calc(100vh - 180px);
+
+    overflow: auto !important;
+}
+
+/* ---------------------info--------------------- */
+.info {
+    width: 100%;
+    background: whitesmoke;
+    color: black;
+    text-align: center;
+}
+
+/* ----------------------artist---------------------- */
+artist {
+    justify-content: center;
+}
+
+/* ---------------------configuring artist photo--------------------- */
+#artist-photo {
+    width: 250px;
+    padding: 20px;
+    vertical-align: top;
+}
+
+#artist-photo img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px brown;
+}
+
+/* ---------------------details of artist--------------------- */
+#artist-details {
+    width: 70%;
+}
+
+/*--------------- playall and start radio BUTTONS-------------- */
+#buttons {
+    justify-content: center;
+}
+#buttons > div {
+    margin: 20px 40px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 15px;
+    /* ALL THIS WORK DONE BY ANKUR GUPTA */
+    text-align: center;
+
+    box-shadow: 0 0 15px 5px black;
+    
+    
+}
+
+/* ---------------------playall--------------------- */
+#playall {    
+    background: red;
+}
+
+/* ---------------------start radio--------------------- */
+#startradio {
+    background: whitesmoke;
+    color: black;
+}
+
+#startradio i {
+    color: black;
+}
+
+/* ---------------------songs--------------------- */
+
+#main-artist h {
+    font-size: 33px;
+}
+
+#songs {
+    align-items: center;
+}
+
+/* ---------------------SONG TITLES--------------------- */
+#songs > .h-container {
+    width: 80%;
+    margin: 5px 0;
+    background: rgba(204, 202, 200, 0.76);
+    border-radius: 10px;
+    align-items: center !important;
+    justify-content: unset;
+}
+
+#songs > .h-container > div:nth-child(1) {
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+img{
+    width: 100%;
+}
+
+#songs > .h-container > div:nth-child(2) {
+    flex-grow: 1;
+}
+
+/* ---------------------IMAGE CAPTION--------------------- */
+.image-caption{
+    font-size: 20px;
+}
+
+/* ---------------------IMAGE DETAILS--------------------- */
+#songs .image-details {
+    font-size: 13px;
+    color:rgb(19, 44, 44);
+}
+
+/* ---------------------ICONS--------------------- */
+#songs .icons i{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.red {
+    color: red;
+}
+
+
+
+
+/* ------------ASIDE RIGHT----------------------- */
+
+/* --------------SIMILAR ARTISTS------- */
+
+/* -------------IMAGE------- */
+#similar-artists > .h-container > div:nth-child(1) {
+    width: 100px;
+    height: 100px;
+}
+
+/* ---------ARTIST NAME -----*/
+#similar-artists > .h-container > div:nth-child(2) {
+    width: auto;
+}
+#similar-artists .h-container {
+    justify-content: start !important;
+    align-items: center;
+}
+
+#similar-artists .image-caption {
+    align-self: unset;
+    font-size: 25px;
+    background: -webkit-linear-gradient(black, orange 90%, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* ---------------------- E N D ---------------------- */
